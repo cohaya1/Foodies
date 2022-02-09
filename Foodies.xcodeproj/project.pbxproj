@@ -14,6 +14,18 @@
 		9852555827A8ABCB009C2BDD /* FoodiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852555727A8ABCB009C2BDD /* FoodiesTests.swift */; };
 		9852556227A8ABCB009C2BDD /* FoodiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852556127A8ABCB009C2BDD /* FoodiesUITests.swift */; };
 		9852556427A8ABCB009C2BDD /* FoodiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852556327A8ABCB009C2BDD /* FoodiesUITestsLaunchTests.swift */; };
+		9852557927A97A96009C2BDD /* GetStartedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852557827A97A96009C2BDD /* GetStartedPage.swift */; };
+		9852557A27A97A96009C2BDD /* GetStartedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852557827A97A96009C2BDD /* GetStartedPage.swift */; };
+		9852557B27A97A96009C2BDD /* GetStartedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9852557827A97A96009C2BDD /* GetStartedPage.swift */; };
+		9856FFF727AACB00001F10E7 /* AuthSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856FFF627AACB00001F10E7 /* AuthSelectionView.swift */; };
+		9856FFF927AB6783001F10E7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856FFF827AB6783001F10E7 /* LoginView.swift */; };
+		98720C4D27B1921E00896F9B /* SignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C4C27B1921E00896F9B /* SignUPView.swift */; };
+		98720C5027B36DF500896F9B /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C4F27B36DF500896F9B /* TabView.swift */; };
+		98720C5127B36DF500896F9B /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C4F27B36DF500896F9B /* TabView.swift */; };
+		98720C5227B36DF500896F9B /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C4F27B36DF500896F9B /* TabView.swift */; };
+		98720C5427B36E3000896F9B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C5327B36E3000896F9B /* HomePage.swift */; };
+		98720C5527B36E3000896F9B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C5327B36E3000896F9B /* HomePage.swift */; };
+		98720C5627B36E3000896F9B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98720C5327B36E3000896F9B /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,12 @@
 		9852555D27A8ABCB009C2BDD /* FoodiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9852556127A8ABCB009C2BDD /* FoodiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodiesUITests.swift; sourceTree = "<group>"; };
 		9852556327A8ABCB009C2BDD /* FoodiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9852557827A97A96009C2BDD /* GetStartedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedPage.swift; sourceTree = "<group>"; };
+		9856FFF627AACB00001F10E7 /* AuthSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSelectionView.swift; sourceTree = "<group>"; };
+		9856FFF827AB6783001F10E7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		98720C4C27B1921E00896F9B /* SignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPView.swift; sourceTree = "<group>"; };
+		98720C4F27B36DF500896F9B /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		98720C5327B36E3000896F9B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,11 @@
 		9852554527A8ABCA009C2BDD /* Foodies */ = {
 			isa = PBXGroup;
 			children = (
-				9852554627A8ABCA009C2BDD /* FoodiesApp.swift */,
-				9852554827A8ABCA009C2BDD /* ContentView.swift */,
+				9852557727A8ACE6009C2BDD /* Networking */,
+				9852557527A8ACBC009C2BDD /* Models */,
+				9852557327A8AC9D009C2BDD /* Views */,
+				9852557427A8ACAD009C2BDD /* ViewModel */,
+				9852557127A8AC64009C2BDD /* MainEntry */,
 				9852554A27A8ABCB009C2BDD /* Assets.xcassets */,
 				9852554C27A8ABCB009C2BDD /* Preview Content */,
 			);
@@ -125,6 +146,65 @@
 				9852556327A8ABCB009C2BDD /* FoodiesUITestsLaunchTests.swift */,
 			);
 			path = FoodiesUITests;
+			sourceTree = "<group>";
+		};
+		9852557127A8AC64009C2BDD /* MainEntry */ = {
+			isa = PBXGroup;
+			children = (
+				9852554627A8ABCA009C2BDD /* FoodiesApp.swift */,
+				9852554827A8ABCA009C2BDD /* ContentView.swift */,
+			);
+			path = MainEntry;
+			sourceTree = "<group>";
+		};
+		9852557327A8AC9D009C2BDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9856FFF527AACAD5001F10E7 /* Autorization pages */,
+				98720C5727B36E3800896F9B /* General pages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9852557427A8ACAD009C2BDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9852557527A8ACBC009C2BDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9852557727A8ACE6009C2BDD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9856FFF527AACAD5001F10E7 /* Autorization pages */ = {
+			isa = PBXGroup;
+			children = (
+				9852557827A97A96009C2BDD /* GetStartedPage.swift */,
+				9856FFF627AACB00001F10E7 /* AuthSelectionView.swift */,
+				9856FFF827AB6783001F10E7 /* LoginView.swift */,
+				98720C4C27B1921E00896F9B /* SignUPView.swift */,
+			);
+			path = "Autorization pages";
+			sourceTree = "<group>";
+		};
+		98720C5727B36E3800896F9B /* General pages */ = {
+			isa = PBXGroup;
+			children = (
+				98720C4F27B36DF500896F9B /* TabView.swift */,
+				98720C5327B36E3000896F9B /* HomePage.swift */,
+			);
+			path = "General pages";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +338,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9852554927A8ABCA009C2BDD /* ContentView.swift in Sources */,
+				9856FFF727AACB00001F10E7 /* AuthSelectionView.swift in Sources */,
 				9852554727A8ABCA009C2BDD /* FoodiesApp.swift in Sources */,
+				9856FFF927AB6783001F10E7 /* LoginView.swift in Sources */,
+				98720C5027B36DF500896F9B /* TabView.swift in Sources */,
+				98720C4D27B1921E00896F9B /* SignUPView.swift in Sources */,
+				9852557927A97A96009C2BDD /* GetStartedPage.swift in Sources */,
+				98720C5427B36E3000896F9B /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +353,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9852555827A8ABCB009C2BDD /* FoodiesTests.swift in Sources */,
+				98720C5127B36DF500896F9B /* TabView.swift in Sources */,
+				9852557A27A97A96009C2BDD /* GetStartedPage.swift in Sources */,
+				98720C5527B36E3000896F9B /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98720C5627B36E3000896F9B /* HomePage.swift in Sources */,
 				9852556427A8ABCB009C2BDD /* FoodiesUITestsLaunchTests.swift in Sources */,
 				9852556227A8ABCB009C2BDD /* FoodiesUITests.swift in Sources */,
+				98720C5227B36DF500896F9B /* TabView.swift in Sources */,
+				9852557B27A97A96009C2BDD /* GetStartedPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
